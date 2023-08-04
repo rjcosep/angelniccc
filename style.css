@@ -1,0 +1,154 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color and center the content */
+  .hero {
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+  }
+  
+  /* Style the main heading */
+  .hero-heading {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .logo{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  /* Style the subheading */
+  .hero-subheading {
+    font-size: 24px;
+    color: #ac1616;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the description paragraph */
+  .hero-description {
+    font-size: 18px;
+    color: lightcyan;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  
+  /* Style the call-to-action button */
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #555555;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #333333;
+  }
+
+  /* Add new styles for the "content" section */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.content h1{
+  font-size: 36px;
+  color: #ac1616;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 36px;
+  color: #ac1616;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content p {
+  font-size: 20px;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.content ul {
+  list-style: disc;
+  margin-left: 30px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Add a style for the contact information */
+.contact-info {
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Add styles for links within the content section */
+.content a {
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 1px solid #007bff;
+  transition: border-bottom 0.3s ease;
+}
+
+.content a:hover {
+  border-bottom: none;
+}
+.angel{
+  display: block;
+  max-width: 300px; /* Adjust the width as needed */
+  margin: 10px auto; /* Centers the image within the list item */
+  border-radius: 8px; /* Adds rounded corners to the image */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+.wadwads h1 {
+  font-size: 16px;
+  color: black;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 10px;
+}
+.angeln{ display: block;
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 10px auto; /* Centers the image within the list item */
+    border-radius: 8px; /* Adds rounded corners to the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    align-items: center;
+    border-top: 50px;
+}
+.angelni{
+    display: block;
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 10px auto; /* Centers the image within the list item */
+    border-radius: 8px; /* Adds rounded corners to the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    align-items: center;
+    border-top: 50px;
+  }
+.wewe h1{font-size: 16px;
+    color: black;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 10px;
+}
+.wewe h2{
+    font-size: 16px;
+  color: black;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 10px;
+}
