@@ -3,18 +3,18 @@ body, h1, h2, p {
     padding: 0;
   }
   
-  /* Set the background color and center the content */
   .hero {
     background-color: black;
     text-align: center;
     padding: 60px;
   }
   
-  /* Style the main heading */
   .hero-heading {
     font-size: 48px;
     color: white;
     margin-bottom: 20px;
+    box-shadow: 0 2px 4px whitesmoke; 
+    display: inline-block;
   }
   .logo{
     display: block;
@@ -22,18 +22,15 @@ body, h1, h2, p {
     width: 250px;
     border-radius: 50%; 
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.815);
   }
   
-  /* Style the subheading */
   .hero-subheading {
     font-size: 24px;
     color: #ac1616;
     margin-bottom: 30px;
   }
   
-  /* Style the description paragraph */
   .hero-description {
     font-size: 18px;
     color: lightcyan;
@@ -41,7 +38,6 @@ body, h1, h2, p {
     line-height: 1.5;
   }
   
-  /* Style the call-to-action button */
   .cta-button {
     display: inline-block;
     padding: 12px 24px;
@@ -49,25 +45,29 @@ body, h1, h2, p {
     color: white;
     text-decoration: none;
     font-size: 24px;
-    border-radius: 4px;
+    border-radius: 4%;
     transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px whitesmoke;  
   }
   
   .cta-button:hover {
     background-color: #333333;
   }
 
-  /* Add new styles for the "content" section */
 .content {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-}
-.content h1{
-  font-size: 36px;
-  color: #ac1616;
-  margin-bottom: 10px;
   text-align: center;
+}
+.content h1 {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  display: inline-block;
+  background-color: whitesmoke; 
 }
 
 .content h2 {
@@ -82,22 +82,10 @@ body, h1, h2, p {
   color: #333;
   line-height: 1.6;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); 
+
 }
 
-.content ul {
-  list-style: disc;
-  margin-left: 30px;
-  font-size: 18px;
-  color: #555;
-}
-
-/* Add a style for the contact information */
-.contact-info {
-  font-size: 18px;
-  color: #007bff;
-}
-
-/* Add styles for links within the content section */
 .content a {
   color: #007bff;
   text-decoration: none;
@@ -110,35 +98,43 @@ body, h1, h2, p {
 }
 .angel{
   display: block;
-  max-width: 300px; /* Adjust the width as needed */
-  margin: 10px auto; /* Centers the image within the list item */
-  border-radius: 8px; /* Adds rounded corners to the image */
+  max-width: 300px; 
+  margin: 10px auto; 
+  border-radius: 8px; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  border: 3px solid gray;
 }
-.wadwads h1 {
-  font-size: 16px;
+.wadwads h4 {
+  font-size: 14px;
   color: black;
   line-height: 1.6;
   text-align: center;
   margin-top: 10px;
 }
-.angeln{ display: block;
-    max-width: 300px; /* Adjust the width as needed */
-    margin: 10px auto; /* Centers the image within the list item */
-    border-radius: 8px; /* Adds rounded corners to the image */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-    align-items: center;
-    border-top: 50px;
+.angeln {
+  display: block;
+  max-width: 300px;
+  margin: 10px 2.5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  border-top: 50px;
+  float: left;
+  border: 3px solid gray;
 }
-.angelni{
-    display: block;
-    max-width: 300px; /* Adjust the width as needed */
-    margin: 10px auto; /* Centers the image within the list item */
-    border-radius: 8px; /* Adds rounded corners to the image */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-    align-items: center;
-    border-top: 50px;
-  }
+
+.angelni {
+  display: block;
+  max-width: 300px;
+  margin: 10px 2.5px; 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  border-top: 50px;
+  float: right;
+  border: 3px solid gray;
+}
+
 .wewe h1{font-size: 16px;
     color: black;
     line-height: 1.6;
@@ -151,4 +147,12 @@ body, h1, h2, p {
   line-height: 1.6;
   text-align: center;
   margin-top: 10px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
